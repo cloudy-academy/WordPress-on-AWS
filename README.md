@@ -105,7 +105,7 @@ sudo chmod -R 755 /var/www/html
 ### 10.1 ایجاد فایل wp-config.php
 ```bash
 cd /var/www/html
-cp wp-config-sample.php wp-config.php
+sudo cp wp-config-sample.php wp-config.php
 ```
 ### 10.2 ویرایش فایل wp-config.php
 ```bash
