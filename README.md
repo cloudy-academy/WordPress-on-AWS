@@ -61,7 +61,9 @@ sudo mysql_secure_installation
 ```
 
 پاسخ‌های پیشنهادی برای ایمن‌سازی MariaDB:
-- Set root password → Y
+- Enter current root password → ENTER
+- Switch to unix_socket authentication → N
+- Set root password → Y → Enter YOUR PASSWORD
 - Remove anonymous users → Y
 - Disallow root login remotely → Y
 - Remove test database → Y
